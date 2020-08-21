@@ -1,0 +1,59 @@
+body {
+    background: antiquewhite
+}
+
+.container {
+    min-height: 100%;
+    border: 2px dashed;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.image-area {
+    position: relative;
+    height: 274px;
+}
+
+.name {
+    font-size: 28px;
+    margin: 8px;
+}
+
+.name:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.profile-wall
+{
+    width: 99%;
+    position: absolute;
+    height: 256px;
+    border-radius: 4px;
+    margin: 8px;
+    top: 0px; left: 0px; z-index: 1; 
+}
+.profile
+{
+    position: absolute;
+    border-radius: 50%;
+    top: 40px; 
+    left: 32px; 
+    z-index: 2;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.text {
+    font-size: 16px;
+    height: 256px;
+    margin-top: 8px;
+}
+
+.about {
+    font-size: 20px;
+    background: burlywood;
+    border: 1px dashed;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}
