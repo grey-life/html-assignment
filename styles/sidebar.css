@@ -1,0 +1,32 @@
+body {
+    background: antiquewhite;
+}
+
+.container {
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    padding: 8px;
+}       
+
+ul {
+    list-style-type: none;
+    padding: 8px;
+}
+
+li {
+    margin: 8px;
+}
+  
+
+a:link, a:visited, a:hover, a:active  {
+    color: darkgoldenrod;
+    text-decoration:none; 
+}

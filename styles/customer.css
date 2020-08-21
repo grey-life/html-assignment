@@ -5,6 +5,7 @@ body {
 
 .container {
     min-height: 100%;
+    height: calc(100vh - 40px);
     border: 2px dashed;
     border-radius: 4px;
     padding: 8px;

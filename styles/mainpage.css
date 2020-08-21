@@ -1,0 +1,11 @@
+body {
+    background: antiquewhite;
+}
+
+.container {
+    width: 50%;
+    border: 2px dashed;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 200px auto;
+}
