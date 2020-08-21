@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gallery</title>
+	<style>
+		table{
+			text-align: center;
+			border-color: red;
+		}
+		.new:hover {
+			transition-property: all;
+			transition-duration: 0.5s;
+			transition: 0.5s;
+			width: 100%;
+			height: 200%;
+
+
+		}
+		
+	</style>
+</head>
+<body>
+	<a  href=""></a>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>S.No</th>
+				<th>customer Image</th>
+				<th>customer Name</th>
+				<th>Email</th>
+				<th>profile link</th>
+				<th>video</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td><img class="new" src="download1.jpg"></td>
+				<td>Rahul</td>
+				<td>rahul@gmail.com</td>
+				<td><a href="rahul.html" target="main-page">click to check profile page</a></td>
+				<td><video id="myvideo" src="billy.mp4"></video></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td><img class="new" src="download2.jpg"></td>
+				<td>Arvind</td>
+				<td>arvind@gmail.com</td>
+				<td><a href="aravind.html" target="main-page">click to check profile page</a></td>
+				<td><video id="myvideo1" src="billy.mp4"></video></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><img class="new" src="download3.jpg"></td>
+				<td>Divya</td>
+				<td>divya@gmail.com</td>
+				<td><a href="divya.html" target="main-page">click to check profile page</a></td>
+				<td><video id="myvideo2" src="billy.mp4"></video></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td><img class="new" src="download4.jpg"></td>
+				<td>Naveen</td>
+				<td>naveen@gmail.com</td>
+				<td><a href="naveen.html" target="main-page">click to check profile page</a></td>
+				<td><video id="myvideo3" src="billy.mp4"></video></td>
+			</tr>
+		</thead>
+	</table>
+	<script type="text/javascript">
+	var vid=document.getElementById('myvideo');
+	vid.addEventListener('mouseover',function(evt) {evt.currentTarget.play()
+		// body...
+	});
+	vid.addEventListener('mouseout',function(evt){evt.currentTarget.pause()});
+
+	var vid1=document.getElementById('myvideo1');
+	vid1.addEventListener('mouseover',function(evt) {evt.currentTarget.play()
+		// body...
+	});
+	vid1.addEventListener('mouseout',function(evt){evt.currentTarget.pause()});
+
+	var vid2=document.getElementById('myvideo2');
+	vid2.addEventListener('mouseover',function(evt) {evt.currentTarget.play()
+		// body...
+	});
+	vid2.addEventListener('mouseout',function(evt){evt.currentTarget.pause()});
+
+	var vid3=document.getElementById('myvideo3');
+	vid3.addEventListener('mouseover',function(evt) {evt.currentTarget.play()
+		// body...
+	});
+	vid3.addEventListener('mouseout',function(evt){evt.currentTarget.pause()});
+
+
+</script>
+
+</body>
+</html>
